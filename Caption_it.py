@@ -74,10 +74,6 @@ with open("./storage/word_to_idx.pkl",'rb') as w2i:
 with open("./storage/idx_to_word.pkl",'rb') as i2w:
     idx_to_word = pickle.load(i2w)
 
-
-# In[31]:
-
-
 def predict_caption(photo):
     in_text = "startseq"
     max_len = 38
