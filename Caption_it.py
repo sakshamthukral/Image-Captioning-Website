@@ -61,6 +61,7 @@ def preprocess_img(img):
 
 def encode_image(img):
     img = preprocess_img(img)
+    
     feature_vector = model_resnet.predict(img)
     feature_vector = feature_vector.reshape(1,feature_vector.shape[1]) # we want the shape to be (1,2048)
     #print(feature_vector.shape)
@@ -77,10 +78,11 @@ with open("./storage/idx_to_word.pkl",'rb') as i2w:
 def predict_caption(photo):
     in_text = "startseq"
     max_len = 38
+    
     for i in range(max_len):
         sequence = [word_to_idx[w] for w in in_text.split() if w in word_to_idx]
         sequence = pad_sequences([sequence],maxlen = max_len,padding='post')
-        
+
         ypred = model.predict([photo,sequence])
         ypred = ypred.argmax() # take the word with maximum probability always-this type of sampling is also known as Greedy Sampling
         word = idx_to_word[ypred]

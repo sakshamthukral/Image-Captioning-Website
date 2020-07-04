@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="403600db-1f9a-4297-bbb5-8c549e0af83b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Caption_it.py" beforeDir="false" afterPath="$PROJECT_DIR$/Caption_it.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +60,10 @@
       <workItem from="1593445644173" duration="294000" />
       <workItem from="1593505662930" duration="189000" />
       <workItem from="1593532983874" duration="5303000" />
-      <workItem from="1593589242793" duration="483000" />
+      <workItem from="1593589242793" duration="1078000" />
+      <workItem from="1593591659260" duration="2552000" />
+      <workItem from="1593778093930" duration="822000" />
+      <workItem from="1593866713310" duration="3729000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Caption_it.py">
       <created>1593589350843</created>
